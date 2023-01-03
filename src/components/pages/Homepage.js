@@ -1,8 +1,8 @@
 import { css } from "aphrodite";
 import Snowfall from "react-snowfall";
-import styles from "./utils/Animations";
-import icons from "./utils/Icons";
-import rose from "../assets/pics/rose.png";
+import styles from "../utils/Animations";
+import icons from "../utils/Icons";
+import rose from "../../assets/pics/rose.png";
 
 export default function Homepage() {
   const images = { rose: rose };

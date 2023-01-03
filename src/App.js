@@ -1,5 +1,5 @@
-import BrideGroom from "./components/brideGroom/BrideGroom";
-import Homepage from "./components/Homepage";
+import BrideGroom from "./components/pages/brideGroom/BrideGroom";
+import Homepage from "./components/pages/Homepage";
 
 function App() {
   return (
