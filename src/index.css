@@ -23,6 +23,12 @@
   background-size: cover;
 }
 
+@media all and (max-width: 767px) {
+  .backHome {
+    background-position: right;
+  }
+}
+
 .dot {
   width: 10px;
   height: 10px;

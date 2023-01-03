@@ -8,19 +8,21 @@ export default function Homepage() {
   const images = { rose: rose };
 
   return (
-    <div className="backHome h-full flex justify-center items-center text-center text-white relative">
-      <div className="flex flex-col gap-10 ">
+    <div className="backHome h-full flex justify-center items-center text-center text-white relative ">
+      <div className="flex flex-col gap-10">
         <Snowfall color="grey" snowflakeCount={50} images={images} />
-        <p className="chopin text-6xl">Alessandra & Matteo</p>
+        <p className="chopin text-6xl  bg-slate-100 p-5 md:p-0 bg-opacity-30 md:bg-transparent">
+          Alessandra & Matteo
+        </p>
         <p className="borded text-3xl italic">15.06.2024</p>
       </div>
       <a
         href="#main"
         className={`${css(
           styles.infiniteBounce
-        )} text-black absolute bottom-10 italic borded`}
+        )} text-black absolute bottom-6 lg:bottom-10 italic borded`}
       >
-        <p>Enter site</p>
+        <p>Entra</p>
         <p>{icons.scroll}</p>
       </a>
     </div>
