@@ -5,7 +5,7 @@ export default function BrideGroom() {
 
   return (
     <div
-      className="min-h-screen bg-slate-100 flex justify-center items-center text-4xl"
+      className="min-h-screen bg-slate-100 flex justify-center items-center text-lg md:text-4xl"
       id="main"
     >
       <MyTimer expiryTimestamp={time} />
