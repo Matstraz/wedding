@@ -8,7 +8,7 @@ export default function MyTimer({ expiryTimestamp }) {
   });
 
   return (
-    <div className="grid grid-cols-4 justify-center items-center text-center italic gap-x-6 gap-y-2">
+    <div className="grid grid-cols-4 justify-center items-center text-center italic gap-x-6 gap-y-2 py-16">
       <p>{days}</p>
       <p>{hours}</p>
       <p>{minutes}</p>

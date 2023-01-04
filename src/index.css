@@ -9,7 +9,6 @@
 
 .chopin {
   font-family: "Chopin";
-  -webkit-text-stroke: 1px black;
 }
 
 .borded {
@@ -27,12 +26,4 @@
   .backHome {
     background-position: right;
   }
-}
-
-.dot {
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  background: url(https://image.ibb.co/kyUHab/rose.png);
-  background-size: 100% 100%;
 }

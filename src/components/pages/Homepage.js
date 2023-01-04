@@ -8,10 +8,13 @@ export default function Homepage() {
   const images = { rose: rose };
 
   return (
-    <div className="backHome h-full flex justify-center items-center text-center text-white relative ">
+    <div
+      className="backHome h-full flex justify-center items-center text-center text-white relative"
+      id="home"
+    >
       <div className="flex flex-col gap-10">
         <Snowfall color="grey" snowflakeCount={50} images={images} />
-        <p className="chopin text-6xl  bg-slate-100 p-5 md:p-0 bg-opacity-40 md:bg-transparent">
+        <p className="chopin borded text-6xl bg-slate-100 p-5 md:p-0 bg-opacity-40 md:bg-transparent">
           Alessandra & Matteo
         </p>
         <p className="borded text-3xl italic">15.06.2024</p>

@@ -1,5 +1,4 @@
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 /* import { css } from "aphrodite";
 import styles from "./Animations"; */
