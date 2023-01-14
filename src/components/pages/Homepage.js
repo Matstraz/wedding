@@ -9,7 +9,7 @@ export default function Homepage() {
 
   return (
     <div
-      className="backHome h-full flex justify-center items-center text-center text-white relative"
+      className="backHome h-screen flex justify-center items-center text-center text-white relative"
       id="home"
     >
       <div className="flex flex-col gap-10">

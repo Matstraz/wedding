@@ -27,3 +27,23 @@
     background-position: right;
   }
 }
+
+.bg-church {
+  background-image: url(./assets/pics/bg-church.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-party {
+  background-image: url(./assets/pics/bg-party.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.prova {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
