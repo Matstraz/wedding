@@ -1,6 +1,5 @@
 import foto1 from "../../../assets/pics/foto1.png";
 import foto2 from "../../../assets/pics/foto2.png";
-import Navbar from "./Navbar";
 
 export default function BrideGroom() {
   return (
