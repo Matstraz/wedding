@@ -33,9 +33,7 @@ export default function Homepage() {
           speed={[1.0, 2.0]}
           wind={[-0.5, 2.0]}
         />
-        <p className="chopin borded text-6xl bg-slate-100 p-5 md:p-0 bg-opacity-40 md:bg-transparent">
-          Alessandra & Matteo
-        </p>
+        <p className="chopin borded text-6xl p-5 md:p-0">Alessandra & Matteo</p>
         <p className="borded text-3xl italic">15.06.2024</p>
       </div>
       <a
