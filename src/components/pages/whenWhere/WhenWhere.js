@@ -1,7 +1,7 @@
-import MyTimer from "./brideGroom/MyTimer";
+import MyTimer from "./MyTimer";
 
 export default function WhenWhere() {
-  const time = new Date("June 15, 2024 15:30:00");
+  const time = new Date("July 05, 2024 15:30:00");
 
   return (
     <div className="min-h-screen bg-slate-100 text-slate-70 pt-20" id="where">

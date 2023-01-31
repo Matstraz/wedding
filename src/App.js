@@ -3,7 +3,7 @@ import Navbar from "./components/pages/brideGroom/Navbar";
 import Footer from "./components/pages/Footer";
 import Homepage from "./components/pages/Homepage";
 import Timeline from "./components/pages/Timeline";
-import WhenWhere from "./components/pages/WhenWhere";
+import WhenWhere from "./components/pages/whenWhere/WhenWhere";
 import Witnesses from "./components/pages/Witnesses";
 
 function App() {

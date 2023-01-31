@@ -2,7 +2,7 @@ import logo from "../../../assets/pics/logo.png";
 
 export default function Navbar() {
   return (
-    <nav className="bg-white flex px-5 lg:px-0 justify-between lg:justify-center items-center gap-40 border-b-2 prova z-20 p-1 text-base">
+    <nav className="bg-white flex px-5 lg:px-0 justify-between lg:justify-center items-center gap-40 border-b-2 stickyBar z-20 p-1 text-base">
       <a href="#home">
         <img src={logo} alt="logo" width={55} />
       </a>

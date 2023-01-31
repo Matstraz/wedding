@@ -10,7 +10,7 @@ export default function Witnesses() {
       <div className="text-center chopin text-6xl italic">
         I Testimoni dello Sposo
       </div>
-      <div className="pt-8 flex flex-col md:flex-row gap-12 justify-center items-center italic px px-2">
+      <div className="pt-8 flex flex-col md:flex-row gap-12 justify-center items-center italic px-2">
         <div className="flex flex-col justify-center items-center gap-5">
           <img src={foto1} className="w-48 md:w-64" alt="foto sposo" />
           <p>Testimone 3</p>
@@ -27,7 +27,7 @@ export default function Witnesses() {
       <div className="text-center chopin text-6xl italic pt-16">
         I Testimoni della Sposa
       </div>
-      <div className="pt-8 flex flex-col md:flex-row gap-12 justify-center items-center px-2">
+      <div className="py-8 flex flex-col md:flex-row gap-12 justify-center items-center italic px-2">
         <div className="flex flex-col justify-center items-center gap-5">
           <img src={foto2} className="w-48 md:w-64" alt="foto sposo" />
           <p>Testimone 1</p>
