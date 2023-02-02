@@ -4,7 +4,10 @@ export default function WhenWhere() {
   const time = new Date("July 05, 2024 15:30:00");
 
   return (
-    <div className="min-h-screen bg-slate-100 text-slate-70 pt-20" id="where">
+    <div
+      className="min-h-screen bg-myBlue-bgLight text-slate-70 pt-20"
+      id="where"
+    >
       <div className="text-center chopin text-6xl italic">Dove e Quando</div>
       <div className="flex justify-center pt-16">
         <div className="flex gap-7 w-full justify-center flex-col lg:flex-row items-center">
@@ -53,7 +56,7 @@ export default function WhenWhere() {
         </div>
       </div>
 
-      <div className="flex justify-center items-center bg-slate-200 text-lg md:text-3xl mt-16">
+      <div className="flex justify-center items-center bg-myBlue-bgDark text-lg md:text-3xl mt-16">
         <MyTimer expiryTimestamp={time} />
       </div>
     </div>

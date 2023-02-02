@@ -4,7 +4,7 @@ import foto2 from "../../assets/pics/foto2.png";
 export default function Witnesses() {
   return (
     <div
-      className="min-h-screen text-slate-70 pt-20 bg-slate-200"
+      className="min-h-screen text-slate-70 pt-20 bg-myBlue-bgDark"
       id="witnesses"
     >
       <div className="text-center chopin text-6xl italic">

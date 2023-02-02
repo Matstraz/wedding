@@ -3,7 +3,10 @@ import foto2 from "../../../assets/pics/foto2.png";
 
 export default function BrideGroom() {
   return (
-    <div className="min-h-screen bg-slate-100 text-slate-70 italic" id="main">
+    <div
+      className="min-h-screen bg-myBlue-bgLight text-slate-70 italic"
+      id="main"
+    >
       <p className="text-center pt-20 chopin text-6xl" id="newlyweds">
         Gli Sposi
       </p>

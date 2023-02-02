@@ -2,22 +2,16 @@ import { css } from "aphrodite";
 import Snowfall from "react-snowfall";
 import styles from "../utils/Animations";
 import icons from "../utils/Icons";
-/* import rose from "../../assets/pics/rose.png"; */
-import bluePetal1 from "../../assets/pics/bluePetal1.png";
-import bluePetal2 from "../../assets/pics/bluePetal2.png";
-import whitePetal from "../../assets/pics/whitePetal.png";
+import leaf1 from "../../assets/pics/leaf1.png";
+import leaf2 from "../../assets/pics/leaf2.png";
 
 export default function Homepage() {
   const petals1 = document.createElement("img");
-  petals1.src = bluePetal1;
+  petals1.src = leaf1;
   const petals2 = document.createElement("img");
-  petals2.src = bluePetal2;
-  const petals3 = document.createElement("img");
-  petals3.src = whitePetal;
-  /*   const petals4 = document.createElement("img");
-  petals3.src = rose;
- */
-  const images = [petals1, petals2, petals3 /* petals4 */];
+  petals2.src = leaf2;
+
+  const images = [petals1, petals2];
 
   return (
     <div
