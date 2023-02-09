@@ -22,11 +22,11 @@ export default function WhenWhere() {
                 quo, ut sit sapiente? Cupiditate aliquam non doloribus earum.
               </p>
               <p className="italic">
-                Sabato 16/06/2024 - 15.00 PM - Chiesa ...., Via.. Palermo
+                Venerdì 5/07/2024 - 15.30 PM - Chiesa ...., Via.. Palermo
               </p>
               <div className="flex gap-5">
-                <button className="bg-slate-200 p-2 px-4">Info</button>
-                <button className="bg-slate-200 p-2 px-4">
+                <button className="bg-myBlue-bgDark p-1 px-4">Info</button>
+                <button className="bg-myBlue-bgDark p-1 px-4">
                   Indicazioni stradali
                 </button>
               </div>
@@ -43,11 +43,11 @@ export default function WhenWhere() {
                 quo, ut sit sapiente? Cupiditate aliquam non doloribus earum.
               </p>
               <p className="italic">
-                Sabato 16/06/2024 - 19.00 PM - Chiesa ...., Via.. Palermo
+                Venerdi 05/07/2024 - 19.30 PM - Castello ...., Via.. Palermo
               </p>
               <div className="flex gap-5">
-                <button className="bg-slate-200 p-2 px-4">Info</button>
-                <button className="bg-slate-200 p-2 px-4">
+                <button className="bg-myBlue-bgDark p-1 px-4">Info</button>
+                <button className="bg-myBlue-bgDark p-1 px-4">
                   Indicazioni stradali
                 </button>
               </div>

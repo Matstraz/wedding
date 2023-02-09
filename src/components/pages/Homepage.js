@@ -2,14 +2,14 @@ import { css } from "aphrodite";
 import Snowfall from "react-snowfall";
 import styles from "../utils/Animations";
 import icons from "../utils/Icons";
-import leaf1 from "../../assets/pics/leaf1.png";
-import leaf2 from "../../assets/pics/leaf2.png";
+import leaf3 from "../../assets/pics/leaf3.png";
+import leaf4 from "../../assets/pics/leaf4.png";
 
 export default function Homepage() {
   const petals1 = document.createElement("img");
-  petals1.src = leaf1;
+  petals1.src = leaf3;
   const petals2 = document.createElement("img");
-  petals2.src = leaf2;
+  petals2.src = leaf4;
 
   const images = [petals1, petals2];
 
@@ -27,8 +27,8 @@ export default function Homepage() {
           speed={[1.0, 2.0]}
           wind={[-0.5, 2.0]}
         />
-        <p className="chopin borded text-6xl p-5 md:p-0">Alessandra & Matteo</p>
-        <p className="borded text-3xl italic">15.06.2024</p>
+        {/*    <p className="chopin borded text-6xl p-5 md:p-0">Alessandra & Matteo</p>
+        <p className="borded text-3xl italic">15.06.2024</p> */}
       </div>
       <a
         href="#main"
