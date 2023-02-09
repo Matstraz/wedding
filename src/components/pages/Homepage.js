@@ -2,8 +2,8 @@ import { css } from "aphrodite";
 import Snowfall from "react-snowfall";
 import styles from "../utils/Animations";
 import icons from "../utils/Icons";
-import leaf3 from "../../assets/pics/leaf3.png";
-import leaf4 from "../../assets/pics/leaf4.png";
+import leaf3 from "../../assets/pics/backgrounds/leaf3.png";
+import leaf4 from "../../assets/pics/backgrounds/leaf4.png";
 
 export default function Homepage() {
   const petals1 = document.createElement("img");
