@@ -29,14 +29,14 @@
 }
 
 .bg-church {
-  background-image: url(./assets/pics/bg-church.webp);
+  background-image: url(./assets/pics/bg-church.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bg-party {
-  background-image: url(./assets/pics/bg-party.jpg);
+  background-image: url(./assets/pics/bg-party.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

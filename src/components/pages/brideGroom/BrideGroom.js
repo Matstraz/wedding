@@ -10,14 +10,14 @@ export default function BrideGroom() {
       <p className="text-center pt-20 chopin text-6xl" id="newlyweds">
         Gli Sposi
       </p>
-      <div className="flex justify-center items-center py-20 md:gap-16 gap-8">
-        <div className="flex flex-col justify-center items-center gap-5 pl-5">
-          <img src={foto1} width={325} alt="foto sposo" />
+      <div className="flex flex-col md:flex-row justify-center items-center py-20 md:gap-16 gap-8 px-2">
+        <div className="flex flex-col justify-center items-center gap-5">
+          <img src={foto1} className="w-56 md:w-72" alt="foto sposo" />
           <p>Matteo S.</p>
         </div>
         <p className="text-4xl sm:text-6xl lg:text-6xl chopin">&</p>
-        <div className="flex flex-col justify-center items-center gap-5 pr-5">
-          <img src={foto2} width={325} alt="foto sposa" />
+        <div className="flex flex-col justify-center items-center gap-5">
+          <img src={foto2} className="w-56 md:w-72" alt="foto sposa" />
           <p>Alessandra L.</p>
         </div>
       </div>

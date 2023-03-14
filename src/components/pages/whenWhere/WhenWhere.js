@@ -22,13 +22,22 @@ export default function WhenWhere() {
                 quo, ut sit sapiente? Cupiditate aliquam non doloribus earum.
               </p>
               <p className="italic">
-                Venerdì 5/07/2024 - 15.30 PM - Chiesa ...., Via.. Palermo
+                Venerdì 5/07/2024 - 15.30 PM - Chiesa di Santa Maria della
+                Pietà, Piazzetta della Pietà SNC, 90133 Palermo
               </p>
               <div className="flex gap-5">
-                <button className="bg-myBlue-bgDark p-1 px-4">Info</button>
-                <button className="bg-myBlue-bgDark p-1 px-4">
+                <a
+                  className="bg-myBlue-bgDark p-1 px-4"
+                  href="https://it.wikipedia.org/wiki/Chiesa_di_Santa_Maria_della_Piet%C3%A0_(Palermo)"
+                >
+                  Info
+                </a>
+                <a
+                  className="bg-myBlue-bgDark p-1 px-4"
+                  href="https://www.google.it/maps/dir//Chiesa+Santa+Maria+Della+Piet%C3%A0,+Piazzetta+della+Piet%C3%A0,+Palermo,+PA/@38.1174972,13.3716383,202m/data=!3m1!1e3!4m9!4m8!1m0!1m5!1m1!1s0x1319e52ede184e8b:0x58413da94c6faeb6!2m2!1d13.3721157!2d38.1169877!3e0"
+                >
                   Indicazioni stradali
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -43,13 +52,22 @@ export default function WhenWhere() {
                 quo, ut sit sapiente? Cupiditate aliquam non doloribus earum.
               </p>
               <p className="italic">
-                Venerdi 05/07/2024 - 19.30 PM - Castello ...., Via.. Palermo
+                Venerdi 05/07/2024 - 19.30 PM - Castello di San Nicola L'Arena,
+                San Nicola l'Arena, Palermo
               </p>
               <div className="flex gap-5">
-                <button className="bg-myBlue-bgDark p-1 px-4">Info</button>
-                <button className="bg-myBlue-bgDark p-1 px-4">
+                <a
+                  className="bg-myBlue-bgDark p-1 px-4"
+                  href="http://www.castellodisannicola.it/"
+                >
+                  Info
+                </a>
+                <a
+                  className="bg-myBlue-bgDark p-1 px-4"
+                  href="https://www.google.it/maps/dir//Castello+San+Nicola,+l'Arena,+San+Nicola+l'Arena+PA/@38.0155572,13.6137298,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x1317575d277f63b1:0xe4f4db2eebe2264e!2m2!1d13.6158976!2d38.0155676!3e0"
+                >
                   Indicazioni stradali
-                </button>
+                </a>
               </div>
             </div>
           </div>
