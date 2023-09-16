@@ -23,7 +23,7 @@ export default function BrideGroom() {
       </div>
       <div className="text-center chopin text-5xl">Lorem, ipsum dolor. </div>
       <div className="text-center text-base py-5 pb-28">
-        15 Giugno, 2024 - Palermo
+        5 Luglio, 2024 - Palermo
       </div>
     </div>
   );
