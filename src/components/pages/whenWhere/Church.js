@@ -55,12 +55,12 @@ export default function Church() {
                 key={el + index}
                 src={el}
                 alt={el}
-                className="w-max h-32 md:h-64 px-1"
+                className="w-max h-40 md:h-64 px-1"
               ></img>
             ))}
           </Carousel>
           <div className="flex justify-center">
-            <p className="italic text-center bg-myBlue-bgLight w-2/3 lg:w-1/3 bg-opacity-90 p-3 rounded-md">
+            <p className="italic text-center bg-myBlue-bgLight w-3/4 lg:w-1/3 bg-opacity-90 p-3 rounded-md">
               Venerdì 5/07/2024 - Ore 15:30 <br />
               Chiesa di Santa Maria della Pietà <br />
               Piazzetta della Pietà SNC, 90133 Palermo
