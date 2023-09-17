@@ -46,7 +46,7 @@ export default function Church() {
             responsive={responsive}
             centerMode={true}
             autoPlay={true}
-            autoPlaySpeed={1700}
+            autoPlaySpeed={3700}
             infinite={true}
             className=""
           >

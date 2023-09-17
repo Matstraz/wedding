@@ -39,7 +39,7 @@ export default function Castle() {
             responsive={responsive}
             centerMode={true}
             autoPlay={true}
-            autoPlaySpeed={1700}
+            autoPlaySpeed={3700}
             infinite={true}
             className=""
           >
