@@ -11,7 +11,8 @@ export default function Navbar() {
         <a href="#home">HOME</a>
         <a href="#newlyweds">GLI SPOSI</a>
         <a href="#witnesses">I TESTIMONI</a>
-        <a href="#where">DOVE/QUANDO</a>
+        <a href="#church">LA CHIESA</a>
+        <a href="#castle">IL RICEVIEMNTO</a>
         <a href="#timeline">PROGRAMMA</a>
       </ul>
 

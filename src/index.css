@@ -29,15 +29,15 @@
 }
 
 .bg-church {
-  background-image: url(./assets/pics/bg-church.jpeg);
+  background-image: url(./assets/pics/bg-church.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.bg-party {
-  background-image: url(./assets/pics/bg-party.jpeg);
-  background-position: center;
+.bg-castle {
+  background-image: url(./assets/pics/castle.jpg);
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
 }
