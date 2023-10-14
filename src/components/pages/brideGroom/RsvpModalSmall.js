@@ -1,14 +1,15 @@
 import { useState } from "react";
 import waLogo from "../../../assets/pics/waLogo.svg";
 
-export default function RsvpModal() {
+export default function RsvpModalSmall({ closeBurger }) {
   const [showModal, setShowModal] = useState(false);
 
   return (
     <>
       <button
-        className="p-2 px-3 hover:bg-myBlue-300 bg-myBlue-main rounded-3xl text-base text-white hidden lg:block italic"
-        onClick={() => setShowModal(true)}
+        onClick={() => {
+          setShowModal(true);
+        }}
       >
         RSVP
       </button>
@@ -17,12 +18,15 @@ export default function RsvpModal() {
           <div className="justify-center items-center flex fixed inset-0 z-50 cursor-default px-2">
             <div className=" my-10 mx-auto max-w-3xl bg-myBlue-bgDark p-3">
               {/*content*/}
-              <div className="rounded-lg max-w-3xl bg-myBlue-bgLight w-68 md:w-96 p-4 text-center relative italic">
+              <div className="rounded-lg max-w-3xl bg-myBlue-bgLight w-68 md:w-96 p-3 text-center relative italic">
                 <button
                   aria-label="Close Menu"
                   title="Close Menu"
                   className="rounded-full hover:bg-slate-300 font-bold absolute -top-1 -right-1 text-xl bg-myBlue-main px-2 py-0 "
-                  onClick={() => setShowModal(false)}
+                  onClick={() => {
+                    setShowModal(false);
+                    closeBurger(false);
+                  }}
                 >
                   X
                 </button>
