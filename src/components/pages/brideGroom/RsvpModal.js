@@ -1,5 +1,8 @@
 import { useState } from "react";
 import waLogo from "../../../assets/pics/waLogo.svg";
+import { css } from "aphrodite";
+import styles from "../../utils/Animations";
+import icons from "../../utils/Icons";
 
 export default function RsvpModal() {
   const [showModal, setShowModal] = useState(false);
@@ -26,30 +29,50 @@ export default function RsvpModal() {
                 >
                   X
                 </button>
-                <p>
+                <p className=" text-slate-700 font-bold">
                   Per confermare la vostra partecipazione contattateci ai nostri
                   recapiti telefonici
                 </p>
+                <div className="flex justify-center items-center gap-2">
+                  <p className="border-b-2 border-black w-1/4 text-center">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </p>
+                  <p className=" mt-4">{icons.heart}</p>
+
+                  <p className="border-b-2 border-slate-700 w-1/4 text-center">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </p>
+                </div>
+
                 <div className="pt-5 flex flex-row justify-center items-center gap-7">
-                  <p>
+                  <p className=" text-slate-700 font-bold">
                     Alessandra
                     <a
                       href="https://wa.me/3476076565"
-                      className="flex flex-row justify-center items-center gap-1"
+                      className="flex flex-row justify-center items-center gap-1 underline"
                     >
-                      <p>3476076565</p>
-                      <img src={waLogo} width={20} alt="Whatsapp logo" />
+                      3476076565
+                      <img
+                        src={waLogo}
+                        width={20}
+                        className={css(styles.tada)}
+                        alt="Whatsapp logo"
+                      />
                     </a>
                   </p>
-
-                  <p>
+                  <p className=" text-slate-700 font-bold">
                     Matteo
                     <a
                       href="https://wa.me/3423878435"
-                      className="flex flex-row justify-center items-center gap-1"
+                      className="flex flex-row justify-center items-center gap-1 underline"
                     >
                       <p>3423878435</p>
-                      <img src={waLogo} width={20} alt="Whatsapp logo" />
+                      <img
+                        src={waLogo}
+                        width={20}
+                        className={css(styles.tada)}
+                        alt="Whatsapp logo"
+                      />
                     </a>
                   </p>
                 </div>
