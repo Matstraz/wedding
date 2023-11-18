@@ -3,18 +3,24 @@ import waLogo from "../../../assets/pics/waLogo.svg";
 import { css } from "aphrodite";
 import styles from "../../utils/Animations";
 import icons from "../../utils/Icons";
+import rsvp2 from "../../../assets/pics/RSVP2.png";
 
 export default function RsvpModal() {
   const [showModal, setShowModal] = useState(false);
+  const [animated, setAnimated] = useState(false);
 
   return (
     <>
-      <button
-        className="p-2 px-3 hover:bg-myBlue-300 bg-myBlue-main rounded-3xl text-base text-white hidden lg:block italic"
+      <img
+        src={rsvp2}
+        alt="rsvp"
+        className={animated ? `${css(styles.pulse)}` : ``}
+        width={80}
+        onMouseOver={() => setAnimated(true)}
+        onMouseLeave={() => setAnimated(false)}
         onClick={() => setShowModal(true)}
-      >
-        RSVP
-      </button>
+      />
+
       {showModal ? (
         <>
           <div className="justify-center items-center flex fixed inset-0 z-50 cursor-default px-2">

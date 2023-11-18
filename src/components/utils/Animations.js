@@ -1,5 +1,5 @@
 import { StyleSheet } from "aphrodite";
-import { fadeInRight, slideInDown, tada } from "react-animations";
+import { fadeInRight, slideInDown, tada, pulse } from "react-animations";
 
 const styles = StyleSheet.create({
   infiniteBounce: {
@@ -14,6 +14,11 @@ const styles = StyleSheet.create({
   tada: {
     animationName: tada,
     animationDuration: "2.2s",
+    animationIterationCount: "infinite",
+  },
+  pulse: {
+    animationName: pulse,
+    animationDuration: "1.2s",
     animationIterationCount: "infinite",
   },
 });

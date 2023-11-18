@@ -3,7 +3,7 @@ import waLogo from "../../../assets/pics/waLogo.svg";
 import { css } from "aphrodite";
 import styles from "../../utils/Animations";
 import icons from "../../utils/Icons";
-
+/* DA RIAGGIUNGERE NEL BURGER IN CASO NON PIACESSE LA SCRITTA RSVP*/
 export default function RsvpModalSmall({ closeBurger }) {
   const [showModal, setShowModal] = useState(false);
 
