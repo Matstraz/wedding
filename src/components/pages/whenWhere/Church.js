@@ -38,7 +38,7 @@ export default function Church() {
   };
 
   return (
-    <div className="bg-church py-24 min-h-screen">
+    <div className="bg-church py-28">
       <div className=" bg-myBlue-bgDark flex flex-col justify-center gap-8 bg-opacity-80">
         <p className="text-center chopin text-6xl italic pt-8">La Chiesa</p>
         <Carousel

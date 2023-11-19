@@ -29,7 +29,7 @@ export default function Castle() {
   };
 
   return (
-    <div id="castle" className="bg-castle py-28 min-h-screen">
+    <div id="castle" className="bg-castle py-28">
       <div className="bg-myBlue-bgDark flex flex-col justify-center gap-8 bg-opacity-80">
         <div className="text-center chopin text-6xl italic pt-8">
           Il Ricevimento
