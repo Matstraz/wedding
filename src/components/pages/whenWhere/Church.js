@@ -38,51 +38,50 @@ export default function Church() {
   };
 
   return (
-    <div>
-      <div className="text-center chopin text-6xl italic">La Chiesa</div>
-      <div className="pt-12">
-        <div className="bg-church bg-myBlue-bgDark pt-10 md:pt-16 pb-12 flex flex-col justify-center gap-8">
-          <Carousel
-            responsive={responsive}
-            centerMode={true}
-            autoPlay={true}
-            autoPlaySpeed={3700}
-            infinite={true}
-            className=""
-          >
-            {churchPics.map((el, index) => (
-              <img
-                key={el + index}
-                src={el}
-                alt={el}
-                className="w-max h-40 md:h-64 px-1"
-              ></img>
-            ))}
-          </Carousel>
-          <div className="flex justify-center">
-            <p className="italic text-center bg-myBlue-bgLight w-3/4 lg:w-1/3 bg-opacity-90 p-3 rounded-md">
-              Venerdì 5/07/2024 - Ore 15:30 <br />
-              Chiesa di Santa Maria della Pietà <br />
-              Piazzetta della Pietà SNC, 90133 Palermo
-            </p>
-          </div>
-          <div className="flex justify-center items-center gap-5 pt-3">
-            <a
-              className="bg-myBlue-bgLight p-1 px-4 rounded-md border-2 border-myBlue-main bg-opacity-90"
-              href="https://it.wikipedia.org/wiki/Chiesa_di_Santa_Maria_della_Piet%C3%A0_(Palermo)"
-            >
-              Info
-            </a>
-            <a
-              className="bg-myBlue-bgLight p-1 px-4 rounded-md border-2 border-myBlue-main bg-opacity-90"
-              href="https://www.google.it/maps/dir//Chiesa+Santa+Maria+Della+Piet%C3%A0,+Piazzetta+della+Piet%C3%A0,+Palermo,+PA/@38.1174972,13.3716383,202m/data=!3m1!1e3!4m9!4m8!1m0!1m5!1m1!1s0x1319e52ede184e8b:0x58413da94c6faeb6!2m2!1d13.3721157!2d38.1169877!3e0"
-            >
-              Indicazioni stradali
-            </a>
-          </div>
+    <div className="bg-church py-24 min-h-screen">
+      <div className=" bg-myBlue-bgDark flex flex-col justify-center gap-8 bg-opacity-80">
+        <p className="text-center chopin text-6xl italic pt-8">La Chiesa</p>
+        <Carousel
+          responsive={responsive}
+          centerMode={true}
+          autoPlay={true}
+          autoPlaySpeed={3700}
+          infinite={true}
+          className=""
+        >
+          {churchPics.map((el, index) => (
+            <img
+              key={el + index}
+              src={el}
+              alt={el}
+              className="w-max h-40 md:h-64 px-1"
+            ></img>
+          ))}
+        </Carousel>
+        <div className="flex justify-center">
+          <p className="italic text-center bg-myBlue-bgLight w-3/4 lg:w-1/3 bg-opacity-90 p-3 rounded-md">
+            Venerdì 5/07/2024 - Ore 15:30 <br />
+            Chiesa di Santa Maria della Pietà <br />
+            Piazzetta della Pietà SNC, 90133 Palermo
+          </p>
         </div>
+        <div className="flex justify-center items-center gap-5 py-3">
+          <a
+            className="bg-myBlue-bgLight p-1 px-4 rounded-md border-2 border-myBlue-main bg-opacity-90"
+            href="https://it.wikipedia.org/wiki/Chiesa_di_Santa_Maria_della_Piet%C3%A0_(Palermo)"
+          >
+            Info
+          </a>
+          <a
+            className="bg-myBlue-bgLight p-1 px-4 rounded-md border-2 border-myBlue-main bg-opacity-90"
+            href="https://www.google.it/maps/dir//Chiesa+Santa+Maria+Della+Piet%C3%A0,+Piazzetta+della+Piet%C3%A0,+Palermo,+PA/@38.1174972,13.3716383,202m/data=!3m1!1e3!4m9!4m8!1m0!1m5!1m1!1s0x1319e52ede184e8b:0x58413da94c6faeb6!2m2!1d13.3721157!2d38.1169877!3e0"
+          >
+            Indicazioni stradali
+          </a>
+        </div>
+      </div>
 
-        {/*  <div className="flex gap-7 w-full justify-center flex-col lg:flex-row items-center">
+      {/*  <div className="flex gap-7 w-full justify-center flex-col lg:flex-row items-center">
             <div className="lg:w-4/12 md:w-9/12 w-11/12">
               <div className="bg-church h-64"></div>
               <div className="flex flex-col justify-center items-center gap-5 pt-5 bg-white p-12">
@@ -144,7 +143,6 @@ export default function Church() {
               </div>
             </div>
           </div> */}
-      </div>
     </div>
   );
 }

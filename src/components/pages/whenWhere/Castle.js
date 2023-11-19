@@ -29,50 +29,48 @@ export default function Castle() {
   };
 
   return (
-    <div id="castle">
-      <div className="text-center chopin text-6xl italic pt-20">
-        Il Ricevimento
-      </div>
-      <div className="pt-12">
-        <div className="bg-church bg-myBlue-bgDark pt-10 md:pt-16 pb-12 flex flex-col justify-center gap-8">
-          <Carousel
-            responsive={responsive}
-            centerMode={true}
-            autoPlay={true}
-            autoPlaySpeed={3700}
-            infinite={true}
-            className=""
+    <div id="castle" className="bg-castle py-28 min-h-screen">
+      <div className="bg-myBlue-bgDark flex flex-col justify-center gap-8 bg-opacity-80">
+        <div className="text-center chopin text-6xl italic pt-8">
+          Il Ricevimento
+        </div>
+        <Carousel
+          responsive={responsive}
+          centerMode={true}
+          autoPlay={true}
+          autoPlaySpeed={3700}
+          infinite={true}
+          className=""
+        >
+          {churchPics.map((el, index) => (
+            <img
+              key={el + index}
+              src={el}
+              alt={el}
+              className="w-max h-40 md:h-64 px-1"
+            ></img>
+          ))}
+        </Carousel>
+        <div className="flex justify-center">
+          <p className="italic text-center bg-myBlue-bgLight w-3/4 lg:w-1/3 bg-opacity-90 p-3 rounded-md">
+            Venerdì 5/07/2024 - Ore 19:30 <br />
+            Castello di San Nicola L'Arena <br />
+            San Nicola l'Arena, Palermo
+          </p>
+        </div>
+        <div className="flex justify-center items-center gap-5 py-3">
+          <a
+            className="bg-myBlue-bgLight p-1 px-4 rounded-md border-2 border-myBlue-main bg-opacity-90"
+            href="http://www.castellodisannicola.it/"
           >
-            {churchPics.map((el, index) => (
-              <img
-                key={el + index}
-                src={el}
-                alt={el}
-                className="w-max h-40 md:h-64 px-1"
-              ></img>
-            ))}
-          </Carousel>
-          <div className="flex justify-center">
-            <p className="italic text-center bg-myBlue-bgLight w-3/4 lg:w-1/3 bg-opacity-90 p-3 rounded-md">
-              Venerdì 5/07/2024 - Ore 19:30 <br />
-              Castello di San Nicola L'Arena <br />
-              San Nicola l'Arena, Palermo
-            </p>
-          </div>
-          <div className="flex justify-center items-center gap-5 pt-3">
-            <a
-              className="bg-myBlue-bgLight p-1 px-4 rounded-md border-2 border-myBlue-main bg-opacity-90"
-              href="http://www.castellodisannicola.it/"
-            >
-              Info
-            </a>
-            <a
-              className="bg-myBlue-bgLight p-1 px-4 rounded-md border-2 border-myBlue-main bg-opacity-90"
-              href="https://www.google.it/maps/dir//Castello+San+Nicola,+l'Arena,+San+Nicola+l'Arena+PA/@38.0155572,13.6137298,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x1317575d277f63b1:0xe4f4db2eebe2264e!2m2!1d13.6158976!2d38.0155676!3e0"
-            >
-              Indicazioni stradali
-            </a>
-          </div>
+            Info
+          </a>
+          <a
+            className="bg-myBlue-bgLight p-1 px-4 rounded-md border-2 border-myBlue-main bg-opacity-90"
+            href="https://www.google.it/maps/dir//Castello+San+Nicola,+l'Arena,+San+Nicola+l'Arena+PA/@38.0155572,13.6137298,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x1317575d277f63b1:0xe4f4db2eebe2264e!2m2!1d13.6158976!2d38.0155676!3e0"
+          >
+            Indicazioni stradali
+          </a>
         </div>
       </div>
     </div>

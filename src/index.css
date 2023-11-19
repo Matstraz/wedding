@@ -16,7 +16,7 @@
 }
 
 .backHome {
-  background-image: url(./assets/pics/backgrounds/bg_scritte_piccole.png);
+  background-image: url(./assets/pics/backgrounds/homepage/bg_scritte_piccole.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,20 +24,20 @@
 
 @media all and (max-width: 767px) {
   .backHome {
-    background-image: url(./assets/pics/backgrounds/bg_mobile.jpg);
+    background-image: url(./assets/pics/backgrounds/homepage/bg_mobile.jpg);
   }
 }
 
 .bg-church {
-  background-image: url(./assets/pics/bg-church.png);
+  background-image: url(./assets/pics/backgrounds/church.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bg-castle {
-  background-image: url(./assets/pics/castle.jpg);
-  background-position: right;
+  background-image: url(./assets/pics/backgrounds/castle.jpg);
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }

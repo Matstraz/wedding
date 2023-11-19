@@ -3,7 +3,7 @@ import waLogo from "../../../assets/pics/waLogo.svg";
 import { css } from "aphrodite";
 import styles from "../../utils/Animations";
 import icons from "../../utils/Icons";
-import rsvp2 from "../../../assets/pics/RSVP2.png";
+import rsvp2 from "../../../assets/pics/navabar/RSVP2.png";
 
 export default function RsvpModal() {
   const [showModal, setShowModal] = useState(false);

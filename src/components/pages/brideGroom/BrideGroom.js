@@ -1,5 +1,5 @@
-import foto1 from "../../../assets/pics/foto1.png";
-import foto2 from "../../../assets/pics/foto2.png";
+import foto1 from "../../../assets/pics/bride-groom/foto1.png";
+import foto2 from "../../../assets/pics/bride-groom/foto2.png";
 
 export default function BrideGroom() {
   return (

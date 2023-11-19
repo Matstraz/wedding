@@ -1,5 +1,5 @@
-import foto1 from "../../assets/pics/foto1.png";
-import foto2 from "../../assets/pics/foto2.png";
+import foto1 from "../../assets/pics/witnesses/foto1.png";
+import foto2 from "../../assets/pics/witnesses/foto2.png";
 
 export default function Witnesses() {
   return (
